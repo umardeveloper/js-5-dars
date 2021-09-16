@@ -1,0 +1,157 @@
+body {
+  background-color: cyan;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero__heading {
+  display: block;
+  margin: 0;
+  margin-bottom: 75px;
+  font-size: 48px;
+  color: gold;
+  text-align: center;
+}
+
+.form__box {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.form__label {
+  display: block;
+  font-size: 24px;
+  color: red;
+}
+
+.input {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.btn {
+  display: block;
+  width: 120px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.btn:active {
+  background-color: dimgray;
+}
+
+.hero__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero__item {
+  width: 250px;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #232323;
+
+  color: #ffffff;
+  background: #232323;
+}
+.hero__item:hover {
+  transition: 1s ease;
+  box-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}
+.hero__item:active {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+.fas {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 72px;
+  text-align: center;
+}
+
+.item__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.onfoot_result {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bike_result {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.car_result {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.plane_result {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+@media only screen and (max-width: 1180px) {
+  .hero__item {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .hero__item {
+    width: 170px;
+  }
+}
+@media only screen and (max-width: 584px) {
+  .form__box {
+    display: block;
+  }
+  .hero__list {
+    display: block;
+  }
+  .hero__item {
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
