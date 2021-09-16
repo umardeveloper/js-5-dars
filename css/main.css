@@ -1,12 +1,11 @@
 body {
-  background-color: cyan;
+  background-color: limegreen;
 }
 
 .container {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .hero__heading {
@@ -81,8 +80,8 @@ body {
 .hero__item:hover {
   transition: 1s ease;
   box-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
-    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
-    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+    cyan 0px 0px 20px, cyan 0px 0px 30px, cyan 0px 0px 40px,
+    cyan 0px 0px 50px, cyan 0px 0px 75px;
 }
 .hero__item:active {
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
